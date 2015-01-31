@@ -13,6 +13,7 @@
 		53F64E231A7D245600747681 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F64E221A7D245600747681 /* Images.xcassets */; };
 		53F64E261A7D245600747681 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53F64E241A7D245600747681 /* LaunchScreen.xib */; };
 		53F64E321A7D245700747681 /* DesignableTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F64E311A7D245700747681 /* DesignableTableTests.swift */; };
+		53F64E3C1A7D26FF00747681 /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F64E3B1A7D26FF00747681 /* UITableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		53F64E2B1A7D245700747681 /* DesignableTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignableTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F64E301A7D245700747681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53F64E311A7D245700747681 /* DesignableTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTableTests.swift; sourceTree = "<group>"; };
+		53F64E3B1A7D26FF00747681 /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				53F64E1B1A7D245600747681 /* AppDelegate.swift */,
 				53F64E1D1A7D245600747681 /* ViewController.swift */,
+				53F64E3B1A7D26FF00747681 /* UITableViewCell.swift */,
 				53F64E1F1A7D245600747681 /* Main.storyboard */,
 				53F64E221A7D245600747681 /* Images.xcassets */,
 				53F64E241A7D245600747681 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F64E3C1A7D26FF00747681 /* UITableViewCell.swift in Sources */,
 				53F64E1E1A7D245600747681 /* ViewController.swift in Sources */,
 				53F64E1C1A7D245600747681 /* AppDelegate.swift in Sources */,
 			);
